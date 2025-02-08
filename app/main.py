@@ -7,8 +7,6 @@ from torchvision.transforms import Compose,Resize,ToTensor
 from src.utils import seed_everything,Tokenizer,read_json,ImageCaptionGenerator
 from src.utils.model import Transformer
 from time import sleep
-print(os.path.exists(GLOBAL.WEIGHTS_FILE))
-print(GLOBAL.WEIGHTS_FILE)
 
 st.set_page_config(layout="wide")
 
